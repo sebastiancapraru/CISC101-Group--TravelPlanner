@@ -1,3 +1,6 @@
+Change Log (2025-11-11)
+- Adjusted timing earlier/later or reorder stops to avoid heavy traffic or crowds
+
 ### **Module 3 — Feasibility & Guardrails**
 
 Apply these **if/else** checks to make sure plans are realistic and adapt to edge cases:
@@ -33,5 +36,9 @@ Apply these **if/else** checks to make sure plans are realistic and adapt to edg
 8. **Bookings**
    
    - If activity usually needs a ticket → just remind the user to book it; never simulate bookings.
+     
+9. **Peak Hour Adjustment**
+    
+   - If an activity or meal time falls during rush hour (e.g., 7–9 AM or 4–6 PM) → adjust timing slightly earlier/later or reorder stops to avoid heavy traffic or crowds.
 
 ---
