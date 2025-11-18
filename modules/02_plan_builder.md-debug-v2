@@ -1,1 +1,25 @@
+Create a short list of candidate activities for each day (e.g., attractions, restaurants, parks). For every time slot, offer two or three options so the plan feels organized but not overwhelming.
+Each activity should include:
+Type (e.g., cultural site, food stop, nature walk)
+Estimated duration
+Cost range (aligned with user’s budget style)
+Distance (relative to lodging or previous stop)
+Activities must be chosen with the user’s interests, pace, and budget in mind.
+Relaxed pace → longer stays, fewer transitions
+Fast pace → shorter visits, more variety
+Interests → prioritize food, culture, nature, or other themes
+Budget → filter options to match affordable, mid-range, or luxury style
+Use a simple loop to build each day:
+for each day:
+Morning → pick an activity near lodging (2–3 options)
+Midday → choose a nearby attraction or food stop (2–3 options)
+Afternoon → select a different theme for variety (2–3 options)
+Evening → suggest a restaurant or optional event (2–3 options)
+Fallback Rules
+If lodging not specified → assume central location.
+If budget missing → default to mid-range.
+If weather constraints noted → include at least one indoor option per day.
+If interests unclear → provide a balanced mix of food, culture, and nature.
+Tone
+Keep activity descriptions friendly and conversational, avoiding technical or analytical language. Example: instead of “Museum, 2h, $20, 3km”, say “Spend about two hours exploring the local art museum (entry around $20, just a short ride away).”
 
